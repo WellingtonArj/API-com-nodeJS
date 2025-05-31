@@ -1,19 +1,19 @@
-# 🧠 User API (NestJS + In-Memory Storage)
+Feito pelo aluno wellington.santana@aluno.faculdadeimpacta.com.br
 
 Esta é uma API REST simples construída com [NestJS](https://nestjs.com/) que permite armazenar, consultar e excluir usuários diretamente na memória (sem banco de dados).
 
 ---
 
-## 🚀 Funcionalidades
+Funcionalidades
 
-- ✅ Criar usuário (`POST /users`)
-- ✅ Listar todos os usuários (`GET /users`)
-- ✅ Buscar um usuário por ID (`GET /users/:id`)
-- ✅ Deletar usuário (`DELETE /users/:id`)
+- ✅ Criar usuário
+- ✅ Listar todos os usuários
+- ✅ Buscar um usuário por ID 
+- ✅ Deletar usuário
 
 ---
 
-## 📦 Tecnologias
+📦 Tecnologias
 
 - [Node.js](https://nodejs.org/)
 - [NestJS](https://nestjs.com/)
@@ -21,7 +21,7 @@ Esta é uma API REST simples construída com [NestJS](https://nestjs.com/) que p
 
 ---
 
-## 📁 Estrutura do Projeto
+📁 Estrutura do Projeto
 
 \`\`\`
 user-api/
@@ -41,7 +41,7 @@ user-api/
 
 ---
 
-## ▶️ Como rodar o projeto
+Como rodar o projeto
 
 ### 1. Instale as dependências
 
@@ -60,9 +60,9 @@ A API estará disponível em:
 
 ---
 
-## 🧪 Exemplos de uso
+ Exemplos de uso
 
-### ➕ Criar usuário
+ Criar usuário
 
 **POST** \`/users\`
 
@@ -73,26 +73,20 @@ A API estará disponível em:
 }
 \`\`\`
 
-### 📋 Listar todos os usuários
+Listar todos os usuários
 
 **GET** \`/users\`
 
-### 🔍 Obter um usuário por ID
+ Obter um usuário por ID
 
 **GET** \`/users/1\`
 
-### ❌ Deletar um usuário
+ Deletar um usuário
 
 **DELETE** \`/users/1\`
 
 ---
 
-## ⚠️ Observação
+Observação
 
 > Esta API usa **armazenamento em memória**, ou seja, os dados serão perdidos ao reiniciar o servidor. Ideal para testes ou aprendizado com NestJS.
-
----
-
-## 📃 Licença
-
-MIT © 2025
